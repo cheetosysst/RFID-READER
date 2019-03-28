@@ -6,7 +6,7 @@
 #define RST_PIN      A0        // Reader pin
 #define SS_PIN       10
 
-MFRC522 mfrc522(SS_PIN, RST_PIN);  // 建立MFRC522物件
+MFRC522 mfrc522(SS_PIN, RST_PIN);
 LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // LCD I2C address
 
 void lcdinit() {
