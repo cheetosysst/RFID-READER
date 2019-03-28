@@ -15,24 +15,24 @@ The project is for the Cheng Kong Computer Science Club.
 I tried to create a schematic, but most service I found does not include a I2C lCD, so you'll have to bear with my poor documented wiring method.
 
 #### LCD
--- GND - GND
--- VCC - 5V
--- SDA - A4
--- SCL - A5
+-- GND - GND  
+-- VCC - 5V  
+-- SDA - A4  
+-- SCL - A5  
 
 #### RFID-RC522
--- 3.3v - 3.3v
--- RST - A0
--- GND - GND
--- IRQ - (none)
--- MISO - D12
--- MOSI - D11
--- SCK - D13
--- SDA - D10
+-- 3.3v - 3.3v  
+-- RST - A0  
+-- GND - GND  
+-- IRQ - (none)  
+-- MISO - D12  
+-- MOSI - D11  
+-- SCK - D13  
+-- SDA - D10  
 
 #### Buzzer
--- Red - D3
--- Black - GND
+-- Red - D3  
+-- Black - GND  
 
 ---
 ## Installing
