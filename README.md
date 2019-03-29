@@ -1,18 +1,18 @@
 # RFID READER
 
-This is a arduino based RFID reader. Nothing special, it still need a lot of improvement.
+This is a arduino based RFID reader. Nothing special, it still needs a lot of improvement.
 
 The project is for the Cheng Kong Computer Science Club.
 
 ---
 ## Component
-- Arduino UNO R3 (or any board with enough pin and is compatible with the Arduino IDE)
+- Arduino UNO R3 (or any board with enough pins and is compatible with the Arduino IDE)
 - I2C 16*2 LCD
 - RFID-RC522
 - Buzzer (optional)
 ---
 ## Wiring
-I tried to create a schematic, but most service I found does not include a I2C lCD, so you'll have to bear with my poor documented wiring method.
+I tried to create a schematic, but most services I found does not include a I2C lCD, so you'll have to bear with my poor documented wiring method.
 
 #### LCD
 -- GND - GND  
@@ -40,9 +40,9 @@ You don't, run the included main.py with
 ``python3 main.py ``
 
 ## Port
-The project is made on a linux machine, so you'll have to make which port your using if you're running it on a Mac or Windows machine.
+The project is written on a linux machine, so you'll have to make which port your using if you're running it on a Mac or Windows machine.
 
-Actually I lied, you have make sure you're Arduino is connected to ``/dev/ttyACM0``, or you'll have to change it manually in the `` main.py`` file.
+Actually I lied, you have make sure you're Arduino is connected to ``/dev/ttyACM0``, or you'll have to change it manually in the `` main.py`` file. Check Arduino IDE to make sure.
 
 ---
 ## Future Update
